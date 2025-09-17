@@ -7,6 +7,18 @@
       "description": "In this tutorial, we build an advanced voice AI agent using Hugging Face’s freely available models, and we keep the entire pipeline simple enough to run smoothly on Google Colab. We combine Whisper fo..."
     },
     {
+      "title": "700 Million People Use ChatGPT Weekly: Here’s What They’re Doing With It!",
+      "link": "https://www.analyticsvidhya.com/blog/2025/09/top-chatgpt-use-prompts/",
+      "pubDate": "2025-09-17",
+      "description": "What comes to mind when you hear “ChatGPT”? A digital assistant for drafting emails, summarizing reports, or writing code, or an AI friend to discuss your day-to-day dilemmas? Launched in November 202..."
+    },
+    {
+      "title": "I Tried GPT-5 Codex and Here is Why You Must Too!",
+      "link": "https://www.analyticsvidhya.com/blog/2025/09/gpt-5-codex/",
+      "pubDate": "2025-09-17",
+      "description": "OpenAI has launched GPT-5 Codex, a variant of OpenAI’s latest AI model GPT-5, specialized in agentic coding. It comes as a unique offering, providing real-time assistance to programmers with the abili..."
+    },
+    {
       "title": "AI-enabled threats and stricter regulation in France",
       "link": "https://www.artificialintelligence-news.com/news/ai-enabled-threats-and-stricter-regulation-in-france/",
       "pubDate": "2025-09-17",
@@ -47,18 +59,6 @@
       "link": "https://blogs.nvidia.com/blog/uk-partner-ecosystem-ai-makers/",
       "pubDate": "2025-09-16",
       "description": "The U.K. is driving investments in sovereign AI, using the technology to advance industries like manufacturing, life sciences and more. During NVIDIA founder and CEO Jensen Huang’s visit to the U.K. t..."
-    },
-    {
-      "title": "Google AI Ships TimesFM-2.5: Smaller, Longer-Context Foundation Model That Now Leads GIFT-Eval (Zero-Shot Forecasting)",
-      "link": "https://www.marktechpost.com/2025/09/16/google-ai-ships-timesfm-2-5-smaller-longer-context-foundation-model-that-now-leads-gift-eval-zero-shot-forecasting/",
-      "pubDate": "2025-09-16",
-      "description": "Google Research has released TimesFM-2.5, a 200M-parameter, decoder-only time-series foundation model with a 16K context length and native probabilistic forecasting support. The new checkpoint is live..."
-    },
-    {
-      "title": "Kaggle Introduces Game Arena to Benchmark AI Models in Strategic Games",
-      "link": "https://www.infoq.com/news/2025/09/kaggle-game-arena/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "pubDate": "2025-09-16",
-      "description": "Kaggle, in collaboration with Google DeepMind, has introduced Kaggle Game Arena, a platform designed to evaluate artificial intelligence models by testing their performance in strategy based games. By..."
     }
   ],
   "testingTrends": [
