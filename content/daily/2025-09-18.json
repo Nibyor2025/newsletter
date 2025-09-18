@@ -1,6 +1,12 @@
 {
   "aiTrends": [
     {
+      "title": "IBM AI Releases Granite-Docling-258M: An Open-Source, Enterprise-Ready Document AI Model",
+      "link": "https://www.marktechpost.com/2025/09/17/ibm-ai-releases-granite-docling-258m-an-open-source-enterprise-ready-document-ai-model/",
+      "pubDate": "2025-09-17",
+      "description": "IBM has released Granite-Docling-258M, an open-source (Apache-2.0) vision-language model designed specifically for end-to-end document conversion. The model targets layout-faithful extraction—tables, ..."
+    },
+    {
       "title": "Meet the Streamlabs Streaming Assistant, Accelerated by NVIDIA RTX",
       "link": "https://blogs.nvidia.com/blog/rtx-ai-garage-logitech-streamlabs-agent/",
       "pubDate": "2025-09-17",
@@ -13,28 +19,10 @@
       "description": "A team of researchers from Meta Reality Labs and Carnegie Mellon University has introduced MapAnything, an end-to-end transformer architecture that directly regresses factored metric 3D scene geometry..."
     },
     {
-      "title": "Is it Safe to Use Nano Banana?",
-      "link": "https://www.analyticsvidhya.com/blog/2025/09/is-it-safe-to-use-nano-banana/",
-      "pubDate": "2025-09-17",
-      "description": "The Hidden Risks Behind Nano Banana\nThe post Is it Safe to Use Nano Banana? appeared first on Analytics Vidhya...."
-    },
-    {
       "title": "How to Build an Advanced End-to-End Voice AI Agent Using Hugging Face Pipelines?",
       "link": "https://www.marktechpost.com/2025/09/17/how-to-build-an-advanced-end-to-end-voice-ai-agent-using-hugging-face-pipelines/",
       "pubDate": "2025-09-17",
       "description": "In this tutorial, we build an advanced voice AI agent using Hugging Face’s freely available models, and we keep the entire pipeline simple enough to run smoothly on Google Colab. We combine Whisper fo..."
-    },
-    {
-      "title": "700 Million People Use ChatGPT Weekly: Here’s What They’re Doing With It!",
-      "link": "https://www.analyticsvidhya.com/blog/2025/09/top-chatgpt-use-prompts/",
-      "pubDate": "2025-09-17",
-      "description": "What comes to mind when you hear “ChatGPT”? A digital assistant for drafting emails, summarizing reports, or writing code, or an AI friend to discuss your day-to-day dilemmas? Launched in November 202..."
-    },
-    {
-      "title": "I Tried GPT-5 Codex and Here is Why You Must Too!",
-      "link": "https://www.analyticsvidhya.com/blog/2025/09/gpt-5-codex/",
-      "pubDate": "2025-09-17",
-      "description": "OpenAI has launched GPT-5 Codex, a variant of OpenAI’s latest AI model GPT-5, specialized in agentic coding. It comes as a unique offering, providing real-time assistance to programmers with the abili..."
     },
     {
       "title": "AI-enabled threats and stricter regulation in France",
@@ -59,6 +47,18 @@
       "link": "https://www.marktechpost.com/2025/09/17/ai2-researchers-are-changing-the-benchmarking-game-by-introducing-fluid-benchmarking-that-enhances-evaluation-along-several-dimensions/",
       "pubDate": "2025-09-17",
       "description": "A team of researchers from Allen Institute for Artificial Intelligence (Ai2), University of Washington and CMU introduce Fluid Benchmarking, an adaptive LLM evaluation method that replaces static accu..."
+    },
+    {
+      "title": "Google AI Introduces Agent Payments Protocol (AP2): An Open Protocol for Interoperable AI Agent Checkout Across Merchants and Wallets",
+      "link": "https://www.marktechpost.com/2025/09/16/google-ai-introduces-agent-payments-protocol-ap2-an-open-protocol-for-interoperable-ai-agent-checkout-across-merchants-and-wallets/",
+      "pubDate": "2025-09-16",
+      "description": "Your shopping agent auto-purchases a $499 Pro plan instead of the $49 Basic tier—who’s on the hook: the user, the agent’s developer, or the merchant? This trust gap is a primary blocker for agent-led ..."
+    },
+    {
+      "title": "A Coding Guide to Implement Zarr for Large-Scale Data: Chunking, Compression, Indexing, and Visualization Techniques",
+      "link": "https://www.marktechpost.com/2025/09/16/a-coding-guide-to-implement-zarr-for-large-scale-data-chunking-compression-indexing-and-visualization-techniques/",
+      "pubDate": "2025-09-16",
+      "description": "In this tutorial, we take a deep dive into the capabilities of Zarr, a library designed for efficient storage & manipulation of large, multidimensional arrays. We begin by exploring the basics, creati..."
     }
   ],
   "testingTrends": [
