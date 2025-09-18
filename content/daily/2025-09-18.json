@@ -1,6 +1,12 @@
 {
   "aiTrends": [
     {
+      "title": "NVIDIA Blackwell: Born for Extreme-Scale AI Inference",
+      "link": "https://blogs.nvidia.com/blog/blackwell-ai-inference/",
+      "pubDate": "2025-09-18",
+      "description": "NVIDIA Blackwell is the core of an entire system architecture designed specifically to power AI factories that produce intelligence through inference using the largest and most complex AI models...."
+    },
+    {
       "title": "GeForce NOW Unleashes ‘Dying Light: The Beast’ in the Cloud",
       "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-dying-light-the-beast/",
       "pubDate": "2025-09-18",
@@ -53,12 +59,6 @@
       "link": "https://www.marktechpost.com/2025/09/17/how-to-build-an-advanced-end-to-end-voice-ai-agent-using-hugging-face-pipelines/",
       "pubDate": "2025-09-17",
       "description": "In this tutorial, we build an advanced voice AI agent using Hugging Face’s freely available models, and we keep the entire pipeline simple enough to run smoothly on Google Colab. We combine Whisper fo..."
-    },
-    {
-      "title": "700 Million People Use ChatGPT Weekly: Here’s What They’re Doing With It!",
-      "link": "https://www.analyticsvidhya.com/blog/2025/09/top-chatgpt-use-prompts/",
-      "pubDate": "2025-09-17",
-      "description": "What comes to mind when you hear “ChatGPT”? A digital assistant for drafting emails, summarizing reports, or writing code, or an AI friend to discuss your day-to-day dilemmas? Launched in November 202..."
     }
   ],
   "testingTrends": [
