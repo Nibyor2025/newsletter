@@ -1,6 +1,12 @@
 {
   "aiTrends": [
     {
+      "title": "Open Practices for Architecture and AI Adoption",
+      "link": "https://www.infoq.com/news/2025/09/open-practices-for-ai-adoption/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "pubDate": "2025-09-18",
+      "description": "Andrea Magnorsky presented on Byte-Sized Architecture at Cloud Native Summit 2025, as a format  for building shared understanding through small, recurrent workshops. Ahilan Ponnusamy and Andreas Grabn..."
+    },
+    {
       "title": "IBM AI Releases Granite-Docling-258M: An Open-Source, Enterprise-Ready Document AI Model",
       "link": "https://www.marktechpost.com/2025/09/17/ibm-ai-releases-granite-docling-258m-an-open-source-enterprise-ready-document-ai-model/",
       "pubDate": "2025-09-17",
@@ -19,10 +25,28 @@
       "description": "A team of researchers from Meta Reality Labs and Carnegie Mellon University has introduced MapAnything, an end-to-end transformer architecture that directly regresses factored metric 3D scene geometry..."
     },
     {
+      "title": "Is it Safe to Use Nano Banana?",
+      "link": "https://www.analyticsvidhya.com/blog/2025/09/is-it-safe-to-use-nano-banana/",
+      "pubDate": "2025-09-17",
+      "description": "The Hidden Risks Behind Nano Banana\nThe post Is it Safe to Use Nano Banana? appeared first on Analytics Vidhya...."
+    },
+    {
       "title": "How to Build an Advanced End-to-End Voice AI Agent Using Hugging Face Pipelines?",
       "link": "https://www.marktechpost.com/2025/09/17/how-to-build-an-advanced-end-to-end-voice-ai-agent-using-hugging-face-pipelines/",
       "pubDate": "2025-09-17",
       "description": "In this tutorial, we build an advanced voice AI agent using Hugging Face’s freely available models, and we keep the entire pipeline simple enough to run smoothly on Google Colab. We combine Whisper fo..."
+    },
+    {
+      "title": "700 Million People Use ChatGPT Weekly: Here’s What They’re Doing With It!",
+      "link": "https://www.analyticsvidhya.com/blog/2025/09/top-chatgpt-use-prompts/",
+      "pubDate": "2025-09-17",
+      "description": "What comes to mind when you hear “ChatGPT”? A digital assistant for drafting emails, summarizing reports, or writing code, or an AI friend to discuss your day-to-day dilemmas? Launched in November 202..."
+    },
+    {
+      "title": "I Tried GPT-5 Codex and Here is Why You Must Too!",
+      "link": "https://www.analyticsvidhya.com/blog/2025/09/gpt-5-codex/",
+      "pubDate": "2025-09-17",
+      "description": "OpenAI has launched GPT-5 Codex, a variant of OpenAI’s latest AI model GPT-5, specialized in agentic coding. It comes as a unique offering, providing real-time assistance to programmers with the abili..."
     },
     {
       "title": "AI-enabled threats and stricter regulation in France",
@@ -35,30 +59,6 @@
       "link": "https://www.infoq.com/news/2025/09/hugging-face-vscode/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "pubDate": "2025-09-17",
       "description": "Hugging Face has introduced a new integration that allows developers to connect Inference Providers directly with GitHub Copilot Chat in Visual Studio Code. The update means that open-source large lan..."
-    },
-    {
-      "title": "CSI and HuLoop deliver AI-driven efficiency to banks",
-      "link": "https://www.artificialintelligence-news.com/news/csi-and-huloop-deliver-ai-driven-efficiency-to-banks/",
-      "pubDate": "2025-09-17",
-      "description": "Fintech, regtech, and cybersecurity vendor, CSI has teamed with HuLoop, a provider of an AI-powered, no-code automation platform, to help banks improve efficiency. The partnership will present CSI’s N..."
-    },
-    {
-      "title": "Ai2 Researchers are Changing the Benchmarking Game by Introducing Fluid Benchmarking that Enhances Evaluation along Several Dimensions",
-      "link": "https://www.marktechpost.com/2025/09/17/ai2-researchers-are-changing-the-benchmarking-game-by-introducing-fluid-benchmarking-that-enhances-evaluation-along-several-dimensions/",
-      "pubDate": "2025-09-17",
-      "description": "A team of researchers from Allen Institute for Artificial Intelligence (Ai2), University of Washington and CMU introduce Fluid Benchmarking, an adaptive LLM evaluation method that replaces static accu..."
-    },
-    {
-      "title": "Google AI Introduces Agent Payments Protocol (AP2): An Open Protocol for Interoperable AI Agent Checkout Across Merchants and Wallets",
-      "link": "https://www.marktechpost.com/2025/09/16/google-ai-introduces-agent-payments-protocol-ap2-an-open-protocol-for-interoperable-ai-agent-checkout-across-merchants-and-wallets/",
-      "pubDate": "2025-09-16",
-      "description": "Your shopping agent auto-purchases a $499 Pro plan instead of the $49 Basic tier—who’s on the hook: the user, the agent’s developer, or the merchant? This trust gap is a primary blocker for agent-led ..."
-    },
-    {
-      "title": "A Coding Guide to Implement Zarr for Large-Scale Data: Chunking, Compression, Indexing, and Visualization Techniques",
-      "link": "https://www.marktechpost.com/2025/09/16/a-coding-guide-to-implement-zarr-for-large-scale-data-chunking-compression-indexing-and-visualization-techniques/",
-      "pubDate": "2025-09-16",
-      "description": "In this tutorial, we take a deep dive into the capabilities of Zarr, a library designed for efficient storage & manipulation of large, multidimensional arrays. We begin by exploring the basics, creati..."
     }
   ],
   "testingTrends": [
