@@ -1,6 +1,12 @@
 {
   "aiTrends": [
     {
+      "title": "GeForce NOW Unleashes ‘Dying Light: The Beast’ in the Cloud",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-dying-light-the-beast/",
+      "pubDate": "2025-09-18",
+      "description": "GeForce NOW is packing a monstrous punch this week. Dying Light: The Beast, the latest adrenaline‑fueled chapter in Techland’s parkour‑meets‑survival‑horror saga, is clawing its way into the cloud — r..."
+    },
+    {
       "title": "H Company Releases Holo1.5: An Open-Weight Computer-Use VLMs Focused on GUI Localization and UI-VQA",
       "link": "https://www.marktechpost.com/2025/09/18/h-company-releases-holo1-5-an-open-weight-computer-use-vlms-focused-on-gui-localization-and-ui-vqa/",
       "pubDate": "2025-09-18",
@@ -53,12 +59,6 @@
       "link": "https://www.analyticsvidhya.com/blog/2025/09/top-chatgpt-use-prompts/",
       "pubDate": "2025-09-17",
       "description": "What comes to mind when you hear “ChatGPT”? A digital assistant for drafting emails, summarizing reports, or writing code, or an AI friend to discuss your day-to-day dilemmas? Launched in November 202..."
-    },
-    {
-      "title": "I Tried GPT-5 Codex and Here is Why You Must Too!",
-      "link": "https://www.analyticsvidhya.com/blog/2025/09/gpt-5-codex/",
-      "pubDate": "2025-09-17",
-      "description": "OpenAI has launched GPT-5 Codex, a variant of OpenAI’s latest AI model GPT-5, specialized in agentic coding. It comes as a unique offering, providing real-time assistance to programmers with the abili..."
     }
   ],
   "testingTrends": [
