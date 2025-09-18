@@ -1,0 +1,13 @@
+[
+  {
+    "id": "1758210454781",
+    "name": "test",
+    "email": "test@gmail.com",
+    "company": "abc",
+    "subject": "test",
+    "message": "test",
+    "timestamp": "2025-09-18T15:47:34.780Z",
+    "status": "new",
+    "createdAt": "2025-09-18T15:47:34.781Z"
+  }
+]
