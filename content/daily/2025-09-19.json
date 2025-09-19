@@ -1,0 +1,73 @@
+{
+  "aiTrends": [
+    {
+      "title": "AI On: How Onboarding Teams of AI Agents Drives Productivity and Revenue for Businesses",
+      "link": "https://blogs.nvidia.com/blog/onboarding-teams-ai-agents-productivity-revenue-businesses/",
+      "pubDate": "2025-09-19",
+      "description": "AI is no longer solely a back-office tool. It’s a strategic partner that can augment decision-making across every line of business. Whether users aim to reduce operational overhead or personalize cust..."
+    },
+    {
+      "title": "TechEx Europe 2025: Practical learnings for AI leaders",
+      "link": "https://www.artificialintelligence-news.com/news/techex-europe-2025-practical-learnings-for-ai-leaders/",
+      "pubDate": "2025-09-19",
+      "description": "On 24–25 September 2025, the RAI in Amsterdam will host TechEx Europe, an event that brings together 8,000+ participants and 250+ speakers in five co-located events: AI & Big Data Expo, Cyber Security..."
+    },
+    {
+      "title": "I Made a PPT in 10 Minutes Using Gamma 3.0 AI and it is Unbelievable!",
+      "link": "https://www.analyticsvidhya.com/blog/2025/09/gamma-3-0/",
+      "pubDate": "2025-09-19",
+      "description": "What is one task that all professionals and students have to do at one point or another in their lives? No, it is not crying in a corner, but making PPTs! Well, Gamma 3.0 might just get you teary-eyed..."
+    },
+    {
+      "title": "Top Computer Vision CV Blogs & News Websites (2025)",
+      "link": "https://www.marktechpost.com/2025/09/19/top-computer-vision-cv-blogs-news-websites-2025/",
+      "pubDate": "2025-09-19",
+      "description": "Computer vision moved fast in 2025: new multimodal backbones, larger open datasets, and tighter model–systems integration. Practitioners need sources that publish rigorously, link code and benchmarks,..."
+    },
+    {
+      "title": "Christian Spindeldreher, Dell Technologies: Powering AI at scale",
+      "link": "https://www.artificialintelligence-news.com/news/christian-spindeldreher-dell-technologies-powering-ai-at-scale/",
+      "pubDate": "2025-09-19",
+      "description": "Dell Technologies is betting on AI as companies move from small pilots to full-scale deployments, with the focus now on how organisations can turn AI into measurable results. But scaling AI is not eas..."
+    },
+    {
+      "title": "Trump jokes about AI while US and UK sign new tech deal",
+      "link": "https://www.artificialintelligence-news.com/news/trump-jokes-about-ai-while-us-and-uk-sign-new-tech-deal/",
+      "pubDate": "2025-09-19",
+      "description": "US President Donald Trump said on Thursday that AI was “taking over the world,” and joked that he hoped tech executives understood it better than he did. The comment came as Trump and UK Prime Ministe..."
+    },
+    {
+      "title": "Qwen3-ASR-Toolkit: An Advanced Open Source Python Command-Line Toolkit for Using the Qwen-ASR API Beyond the 3 Minutes/10 MB Limit",
+      "link": "https://www.marktechpost.com/2025/09/19/qwen3-asr-toolkit-an-advanced-open-source-python-command-line-toolkit-for-using-the-qwen-asr-api-beyond-the-3-minutes-10-mb-limit/",
+      "pubDate": "2025-09-19",
+      "description": "Qwen has released Qwen3-ASR-Toolkit, an MIT-licensed Python CLI that programmatically bypasses the Qwen3-ASR-Flash API’s 3-minute/10 MB per-request limit by performing VAD-aware chunking, parallel API..."
+    },
+    {
+      "title": "Physical AI: Bridging Robotics, Material Science, and Artificial Intelligence for Next-Gen Embodied Systems",
+      "link": "https://www.marktechpost.com/2025/09/18/physical-ai-bridging-robotics-material-science-and-artificial-intelligence-for-next-gen-embodied-systems/",
+      "pubDate": "2025-09-18",
+      "description": "What Do We Mean by “Physical AI”? Artificial intelligence in robotics is not just a matter of clever algorithms. Robots operate in the physical world, and their intelligence emerges from the co-design..."
+    },
+    {
+      "title": "Building AI agents is 5% AI and 100% software engineering",
+      "link": "https://www.marktechpost.com/2025/09/18/building-ai-agents-is-5-ai-and-100-software-engineering/",
+      "pubDate": "2025-09-18",
+      "description": "Production-grade agents live or die on data plumbing, controls, and observability—not on model choice. The doc-to-chat pipeline below maps the concrete layers and why they matter. What is a “doc-to-ch..."
+    },
+    {
+      "title": "MIT’s LEGO: A Compiler for AI Chips that Auto-Generates Fast, Efficient Spatial Accelerators",
+      "link": "https://www.marktechpost.com/2025/09/18/mits-lego-a-compiler-for-ai-chips-that-auto-generates-fast-efficient-spatial-accelerators/",
+      "pubDate": "2025-09-18",
+      "description": "MIT researchers (Han Lab) introduced LEGO, a compiler-like framework that takes tensor workloads (e.g., GEMM, Conv2D, attention, MTTKRP) and automatically generates synthesizable RTL for spatial accel..."
+    }
+  ],
+  "testingTrends": [
+    {
+      "title": "Powering Next Gen QA with Cloud Speed AI Insight and Trust",
+      "link": "https://www.testingxperts.com/blog/powering-next-gen-qa-with-cloud-speed-ai-insight",
+      "pubDate": "2025-09-15",
+      "description": "QA is no longer the final checkpoint. It’s now embedded into every stage of development, powered by AI, cloud scalability, and human judgment. Discover how TestingXperts is helping enterprises lead th..."
+    }
+  ],
+  "industryTrends": []
+}
