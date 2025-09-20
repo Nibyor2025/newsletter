@@ -1,0 +1,13 @@
+{
+  "time": "17:00",
+  "timezone": "Asia/Kolkata",
+  "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ],
+  "enabled": true
+}
