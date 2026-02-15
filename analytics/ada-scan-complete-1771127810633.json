@@ -1,0 +1,17 @@
+{
+  "url": "https://www.google.com",
+  "timestamp": "2026-02-15T03:56:46.444Z",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+  "screenResolution": "1280x720",
+  "analysisId": "analysis_1771127806444_9ti04dzyf",
+  "completed": true,
+  "complianceScore": 85,
+  "analysisResult": {
+    "score": 85,
+    "totalIssues": 3,
+    "errors": 3,
+    "warnings": 0,
+    "info": 1
+  },
+  "mode": "client-side"
+}
