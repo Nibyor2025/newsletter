@@ -1,0 +1,17 @@
+{
+  "url": "https://www.straive.com/",
+  "timestamp": "2026-02-15T03:45:12.072Z",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+  "screenResolution": "1280x720",
+  "analysisId": "analysis_1771127112072_4h8n1v13g",
+  "completed": true,
+  "complianceScore": 95,
+  "analysisResult": {
+    "score": 95,
+    "totalIssues": 1,
+    "errors": 1,
+    "warnings": 0,
+    "info": 0
+  },
+  "mode": "client-side"
+}
