@@ -1,0 +1,17 @@
+{
+  "url": "https://www.tcs.com",
+  "timestamp": "2026-02-15T13:21:36.444Z",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+  "screenResolution": "1280x720",
+  "analysisId": "analysis_1771161696444_y8dvl0njw",
+  "completed": true,
+  "complianceScore": 60,
+  "analysisResult": {
+    "score": 60,
+    "totalIssues": 14,
+    "errors": 4,
+    "warnings": 10,
+    "info": 2
+  },
+  "mode": "client-side"
+}
