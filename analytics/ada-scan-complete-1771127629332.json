@@ -1,0 +1,17 @@
+{
+  "url": "https://hcl.com/",
+  "timestamp": "2026-02-15T03:53:48.647Z",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0",
+  "screenResolution": "1280x720",
+  "analysisId": "analysis_1771127628647_925x1u5u8",
+  "completed": true,
+  "complianceScore": 21,
+  "analysisResult": {
+    "score": 21,
+    "totalIssues": 23,
+    "errors": 11,
+    "warnings": 12,
+    "info": 1
+  },
+  "mode": "client-side"
+}
