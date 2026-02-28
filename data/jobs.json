@@ -62,7 +62,20 @@
     "dataSource": "AI-Generated (Gemini)",
     "disclaimer": "This job listing was AI-generated for market analysis purposes. Company details, contact info, and URLs have been validated where possible but may not represent actual open positions. Always verify directly with the employer.",
     "contactEmailNote": "AI-generated — verify with company directly",
-    "contactPhoneNote": "AI-generated — verify with company directly"
+    "contactPhoneNote": "AI-generated — verify with company directly",
+    "title": "ADA Compliance Program Manager",
+    "experience": "senior",
+    "type": "Full-Time",
+    "posted_date": "2026-02-13T05:59:22.790Z",
+    "skills": [
+      "Financial services regulatory experience (OCC, CFPB)",
+      "Budget management ($500K+)",
+      "Third-party accessibility vendor evaluation",
+      "Executive presentation and stakeholder management"
+    ],
+    "company_website": "https://careers.jpmorgan.com",
+    "apply_url": "https://www.indeed.com/jobs?q=ADA+Compliance+Program+Manager+JPMorgan+Chase&l=New+York%2C+NY",
+    "adaRequirements": []
   },
   {
     "id": "job_1771048762791_4",
@@ -127,7 +140,20 @@
     "dataSource": "AI-Generated (Gemini)",
     "disclaimer": "This job listing was AI-generated for market analysis purposes. Company details, contact info, and URLs have been validated where possible but may not represent actual open positions. Always verify directly with the employer.",
     "contactEmailNote": "AI-generated — verify with company directly",
-    "contactPhoneNote": "AI-generated — verify with company directly"
+    "contactPhoneNote": "AI-generated — verify with company directly",
+    "title": "Director of Inclusive Design",
+    "experience": "director",
+    "type": "Full-Time",
+    "posted_date": "2026-02-13T05:59:22.790Z",
+    "skills": [
+      "Physical space accessibility (ADA Title III facilities compliance)",
+      "Executive stakeholder management at Fortune 500",
+      "Accessibility ROI measurement and reporting",
+      "Kiosk and self-checkout terminal accessibility"
+    ],
+    "company_website": "https://corporate.target.com/careers",
+    "apply_url": "https://www.indeed.com/jobs?q=Director+Inclusive+Design+Target&l=Minneapolis%2C+MN",
+    "adaRequirements": []
   },
   {
     "id": "job_1771048762791_1",
@@ -192,7 +218,20 @@
     "dataSource": "AI-Generated (Gemini)",
     "disclaimer": "This job listing was AI-generated for market analysis purposes. Company details, contact info, and URLs have been validated where possible but may not represent actual open positions. Always verify directly with the employer.",
     "contactEmailNote": "AI-generated — verify with company directly",
-    "contactPhoneNote": "AI-generated — verify with company directly"
+    "contactPhoneNote": "AI-generated — verify with company directly",
+    "title": "Senior Digital Accessibility Engineer",
+    "experience": "senior",
+    "type": "Full-Time",
+    "posted_date": "2026-02-12T05:59:22.790Z",
+    "skills": [
+      "React/Next.js accessibility patterns",
+      "Automated accessibility CI/CD integration",
+      "PDF/document accessibility remediation",
+      "Mobile app accessibility (iOS VoiceOver, Android TalkBack)"
+    ],
+    "company_website": "https://jobs.cvshealth.com",
+    "apply_url": "https://www.indeed.com/jobs?q=Senior+Digital+Accessibility+Engineer+CVS+Health&l=Hartford%2C+CT",
+    "adaRequirements": []
   },
   {
     "id": "job_1771048762791_6",
@@ -257,7 +296,20 @@
     "dataSource": "AI-Generated (Gemini)",
     "disclaimer": "This job listing was AI-generated for market analysis purposes. Company details, contact info, and URLs have been validated where possible but may not represent actual open positions. Always verify directly with the employer.",
     "contactEmailNote": "AI-generated — verify with company directly",
-    "contactPhoneNote": "AI-generated — verify with company directly"
+    "contactPhoneNote": "AI-generated — verify with company directly",
+    "title": "Frontend Developer — Accessibility Focus",
+    "experience": "mid",
+    "type": "Full-Time",
+    "posted_date": "2026-02-12T05:59:22.790Z",
+    "skills": [
+      "TypeScript",
+      "Design system development (Storybook)",
+      "Accessibility CI/CD automation (axe-core, Pa11y)",
+      "React Testing Library with accessibility assertions"
+    ],
+    "company_website": "https://www.nationwide.com/personal/about-us/careers",
+    "apply_url": "https://www.indeed.com/jobs?q=Frontend+Developer+Accessibility+Nationwide+Insurance&l=Columbus%2C+OH",
+    "adaRequirements": []
   },
   {
     "id": "job_1771048762791_10",
@@ -322,7 +374,20 @@
     "dataSource": "AI-Generated (Gemini)",
     "disclaimer": "This job listing was AI-generated for market analysis purposes. Company details, contact info, and URLs have been validated where possible but may not represent actual open positions. Always verify directly with the employer.",
     "contactEmailNote": "AI-generated — verify with company directly",
-    "contactPhoneNote": "AI-generated — verify with company directly"
+    "contactPhoneNote": "AI-generated — verify with company directly",
+    "title": "Accessibility Training & Enablement Manager",
+    "experience": "senior",
+    "type": "Full-Time",
+    "posted_date": "2026-02-12T05:59:22.790Z",
+    "skills": [
+      "LMS/e-learning content development",
+      "Developer advocate or DevRel experience",
+      "Conference speaking portfolio",
+      "Metrics-driven training ROI measurement"
+    ],
+    "company_website": "https://careers.salesforce.com",
+    "apply_url": "https://www.indeed.com/jobs?q=Accessibility+Training+Manager+Salesforce&l=Indianapolis%2C+IN",
+    "adaRequirements": []
   },
   {
     "id": "job_1771048762791_3",
@@ -387,7 +452,20 @@
     "dataSource": "AI-Generated (Gemini)",
     "disclaimer": "This job listing was AI-generated for market analysis purposes. Company details, contact info, and URLs have been validated where possible but may not represent actual open positions. Always verify directly with the employer.",
     "contactEmailNote": "AI-generated — verify with company directly",
-    "contactPhoneNote": "AI-generated — verify with company directly"
+    "contactPhoneNote": "AI-generated — verify with company directly",
+    "title": "Web Accessibility QA Analyst",
+    "experience": "mid",
+    "type": "Full-Time",
+    "posted_date": "2026-02-11T05:59:22.790Z",
+    "skills": [
+      "Automated accessibility test scripting (Playwright, Cypress)",
+      "VPAT/ACR document creation",
+      "JIRA accessibility workflow management",
+      "PDF and multimedia accessibility testing"
+    ],
+    "company_website": "https://www.pearson.com/en-us/careers.html",
+    "apply_url": "https://www.indeed.com/jobs?q=Web+Accessibility+QA+Analyst+Pearson&l=Austin%2C+TX",
+    "adaRequirements": []
   },
   {
     "id": "job_1771048762791_9",
@@ -452,7 +530,20 @@
     "dataSource": "AI-Generated (Gemini)",
     "disclaimer": "This job listing was AI-generated for market analysis purposes. Company details, contact info, and URLs have been validated where possible but may not represent actual open positions. Always verify directly with the employer.",
     "contactEmailNote": "AI-generated — verify with company directly",
-    "contactPhoneNote": "AI-generated — verify with company directly"
+    "contactPhoneNote": "AI-generated — verify with company directly",
+    "title": "Mobile Accessibility Engineer",
+    "experience": "mid",
+    "type": "Full-Time",
+    "posted_date": "2026-02-11T05:59:22.790Z",
+    "skills": [
+      "Swift/Kotlin native development",
+      "Real-time location service accessibility",
+      "Switch control and voice control testing",
+      "Mobile accessibility automation frameworks"
+    ],
+    "company_website": "https://www.uber.com/us/en/careers/",
+    "apply_url": "https://www.indeed.com/jobs?q=Mobile+Accessibility+Engineer+Uber&l=San+Francisco%2C+CA",
+    "adaRequirements": []
   },
   {
     "id": "job_1771048762791_7",
@@ -517,7 +608,20 @@
     "dataSource": "AI-Generated (Gemini)",
     "disclaimer": "This job listing was AI-generated for market analysis purposes. Company details, contact info, and URLs have been validated where possible but may not represent actual open positions. Always verify directly with the employer.",
     "contactEmailNote": "AI-generated — verify with company directly",
-    "contactPhoneNote": "AI-generated — verify with company directly"
+    "contactPhoneNote": "AI-generated — verify with company directly",
+    "title": "Accessibility Research & Usability Lead",
+    "experience": "lead",
+    "type": "Full-Time",
+    "posted_date": "2026-02-10T05:59:22.790Z",
+    "skills": [
+      "Mixed-methods research (qualitative + quantitative)",
+      "Streaming/media platform experience",
+      "Caption and audio description quality research",
+      "Cross-platform accessibility (TV, mobile, web)"
+    ],
+    "company_website": "https://jobs.netflix.com",
+    "apply_url": "https://www.indeed.com/jobs?q=Accessibility+Research+Lead+Netflix&l=Los+Gatos%2C+CA",
+    "adaRequirements": []
   },
   {
     "id": "job_1771048762791_5",
@@ -582,7 +686,20 @@
     "dataSource": "AI-Generated (Gemini)",
     "disclaimer": "This job listing was AI-generated for market analysis purposes. Company details, contact info, and URLs have been validated where possible but may not represent actual open positions. Always verify directly with the employer.",
     "contactEmailNote": "AI-generated — verify with company directly",
-    "contactPhoneNote": "AI-generated — verify with company directly"
+    "contactPhoneNote": "AI-generated — verify with company directly",
+    "title": "Accessibility Compliance Specialist",
+    "experience": "mid",
+    "type": "Full-Time",
+    "posted_date": "2026-02-09T05:59:22.790Z",
+    "skills": [
+      "Government RFP and procurement process knowledge",
+      "Bilingual (English/Spanish) accessibility testing",
+      "GIS/mapping accessibility",
+      "Los Angeles city government experience"
+    ],
+    "company_website": "https://www.governmentjobs.com/careers/lacity",
+    "apply_url": "https://www.governmentjobs.com/careers/lacity",
+    "adaRequirements": []
   },
   {
     "id": "job_1771048762791_8",
@@ -648,39 +765,30 @@
     "dataSource": "AI-Generated (Gemini)",
     "disclaimer": "This job listing was AI-generated for market analysis purposes. Company details, contact info, and URLs have been validated where possible but may not represent actual open positions. Always verify directly with the employer.",
     "contactEmailNote": "AI-generated — verify with company directly",
-    "contactPhoneNote": "AI-generated — verify with company directly"
+    "contactPhoneNote": "AI-generated — verify with company directly",
+    "title": "ADA Digital Compliance Coordinator",
+    "experience": "entry",
+    "type": "Full-Time",
+    "posted_date": "2026-02-08T05:59:22.790Z",
+    "skills": [
+      "Siteimprove or similar enterprise accessibility monitoring",
+      "Canvas LMS administration",
+      "Captioning and audio description workflows",
+      "HTML and CSS fundamentals"
+    ],
+    "company_website": "https://www.indeed.com/jobs?q=ADA%20Digital%20Compliance%20Coordinator%20Arizona%20State%20University&l=Tempe%2C%20AZ",
+    "apply_url": "https://www.indeed.com/jobs?q=ADA+Digital+Compliance+Coordinator+Arizona+State+University&l=Tempe%2C+AZ",
+    "adaRequirements": []
   },
   {
-    "id": "synthetic-1772276371883-0",
-    "title": "WCAG Compliance Analyst",
-    "company": "Apple",
+    "id": "synthetic-1772279296822-0",
+    "title": "Section 508 Consultant",
+    "company": "Google",
     "location": "New York, NY",
-    "description": "Join Apple as a WCAG Compliance Analyst. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "description": "Join Google as a Section 508 Consultant. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
     "type": "Full-time",
     "experience": "Mid-level",
     "salary": "$80000-$100000",
-    "contactEmail": "careers@apple.com",
-    "company_website": "https://www.apple.com/careers",
-    "adaRequirements": [
-      "Strong knowledge of WCAG 2.1 Level AA",
-      "ADA Title III compliance experience",
-      "Accessibility testing tools proficiency",
-      "Code review for accessibility standards"
-    ],
-    "industry": "Technology",
-    "posted_date": "2026-02-28",
-    "source": "Generated",
-    "apply_url": "https://www.apple.com/careers"
-  },
-  {
-    "id": "synthetic-1772276371883-1",
-    "title": "Digital Accessibility Manager",
-    "company": "Google",
-    "location": "San Francisco, CA",
-    "description": "Join Google as a Digital Accessibility Manager. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
-    "type": "Full-time",
-    "experience": "Mid-level",
-    "salary": "$85000-$105000",
     "contactEmail": "careers@google.com",
     "company_website": "https://www.google.com/careers",
     "adaRequirements": [
@@ -689,20 +797,40 @@
       "Accessibility testing tools proficiency",
       "Code review for accessibility standards"
     ],
+    "skills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
+    ],
     "industry": "Technology",
     "posted_date": "2026-02-28",
     "source": "Generated",
-    "apply_url": "https://www.google.com/careers"
+    "apply_url": "https://www.google.com/careers",
+    "jobTitle": "Section 508 Consultant",
+    "level": "Mid-level",
+    "employmentType": "Full-time",
+    "postedDate": "2026-02-28",
+    "preferredSkills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
+    ],
+    "companyWebsite": "https://www.google.com/careers",
+    "applicationUrl": "https://www.google.com/careers",
+    "status": "active",
+    "contactPhone": ""
   },
   {
-    "id": "synthetic-1772276371884-2",
+    "id": "synthetic-1772279296822-1",
     "title": "WCAG Compliance Analyst",
     "company": "Microsoft",
-    "location": "Seattle, WA",
+    "location": "Austin, TX",
     "description": "Join Microsoft as a WCAG Compliance Analyst. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
     "type": "Full-time",
     "experience": "Mid-level",
-    "salary": "$90000-$110000",
+    "salary": "$85000-$105000",
     "contactEmail": "careers@microsoft.com",
     "company_website": "https://www.microsoft.com/careers",
     "adaRequirements": [
@@ -711,42 +839,40 @@
       "Accessibility testing tools proficiency",
       "Code review for accessibility standards"
     ],
-    "industry": "Technology",
-    "posted_date": "2026-02-28",
-    "source": "Generated",
-    "apply_url": "https://www.microsoft.com/careers"
-  },
-  {
-    "id": "synthetic-1772276371884-3",
-    "title": "WCAG Compliance Analyst",
-    "company": "Oracle",
-    "location": "New York, NY",
-    "description": "Join Oracle as a WCAG Compliance Analyst. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
-    "type": "Full-time",
-    "experience": "Mid-level",
-    "salary": "$95000-$115000",
-    "contactEmail": "careers@oracle.com",
-    "company_website": "https://www.oracle.com/careers",
-    "adaRequirements": [
-      "Strong knowledge of WCAG 2.1 Level AA",
-      "ADA Title III compliance experience",
-      "Accessibility testing tools proficiency",
-      "Code review for accessibility standards"
+    "skills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
     ],
     "industry": "Technology",
     "posted_date": "2026-02-28",
     "source": "Generated",
-    "apply_url": "https://www.oracle.com/careers"
+    "apply_url": "https://www.microsoft.com/careers",
+    "jobTitle": "WCAG Compliance Analyst",
+    "level": "Mid-level",
+    "employmentType": "Full-time",
+    "postedDate": "2026-02-28",
+    "preferredSkills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
+    ],
+    "companyWebsite": "https://www.microsoft.com/careers",
+    "applicationUrl": "https://www.microsoft.com/careers",
+    "status": "active",
+    "contactPhone": ""
   },
   {
-    "id": "synthetic-1772276371884-4",
-    "title": "Accessibility Engineer",
+    "id": "synthetic-1772279296822-2",
+    "title": "ADA Compliance Specialist",
     "company": "Adobe",
-    "location": "Remote",
-    "description": "Join Adobe as a Accessibility Engineer. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "location": "Austin, TX",
+    "description": "Join Adobe as a ADA Compliance Specialist. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
     "type": "Full-time",
     "experience": "Mid-level",
-    "salary": "$100000-$120000",
+    "salary": "$90000-$110000",
     "contactEmail": "careers@adobe.com",
     "company_website": "https://www.adobe.com/careers",
     "adaRequirements": [
@@ -755,86 +881,40 @@
       "Accessibility testing tools proficiency",
       "Code review for accessibility standards"
     ],
-    "industry": "Technology",
-    "posted_date": "2026-02-28",
-    "source": "Generated",
-    "apply_url": "https://www.adobe.com/careers"
-  },
-  {
-    "id": "synthetic-1772276371884-5",
-    "title": "Accessibility Engineer",
-    "company": "Microsoft",
-    "location": "New York, NY",
-    "description": "Join Microsoft as a Accessibility Engineer. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
-    "type": "Full-time",
-    "experience": "Mid-level",
-    "salary": "$105000-$125000",
-    "contactEmail": "careers@microsoft.com",
-    "company_website": "https://www.microsoft.com/careers",
-    "adaRequirements": [
-      "Strong knowledge of WCAG 2.1 Level AA",
-      "ADA Title III compliance experience",
-      "Accessibility testing tools proficiency",
-      "Code review for accessibility standards"
+    "skills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
     ],
     "industry": "Technology",
     "posted_date": "2026-02-28",
     "source": "Generated",
-    "apply_url": "https://www.microsoft.com/careers"
-  },
-  {
-    "id": "synthetic-1772276371884-6",
-    "title": "Accessibility Engineer",
-    "company": "Amazon",
-    "location": "Austin, TX",
-    "description": "Join Amazon as a Accessibility Engineer. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
-    "type": "Full-time",
-    "experience": "Mid-level",
-    "salary": "$110000-$130000",
-    "contactEmail": "careers@amazon.com",
-    "company_website": "https://www.amazon.com/careers",
-    "adaRequirements": [
-      "Strong knowledge of WCAG 2.1 Level AA",
-      "ADA Title III compliance experience",
-      "Accessibility testing tools proficiency",
-      "Code review for accessibility standards"
+    "apply_url": "https://www.adobe.com/careers",
+    "jobTitle": "ADA Compliance Specialist",
+    "level": "Mid-level",
+    "employmentType": "Full-time",
+    "postedDate": "2026-02-28",
+    "preferredSkills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
     ],
-    "industry": "Technology",
-    "posted_date": "2026-02-28",
-    "source": "Generated",
-    "apply_url": "https://www.amazon.com/careers"
+    "companyWebsite": "https://www.adobe.com/careers",
+    "applicationUrl": "https://www.adobe.com/careers",
+    "status": "active",
+    "contactPhone": ""
   },
   {
-    "id": "synthetic-1772276371884-7",
-    "title": "Section 508 Consultant",
-    "company": "Microsoft",
-    "location": "Remote",
-    "description": "Join Microsoft as a Section 508 Consultant. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
-    "type": "Full-time",
-    "experience": "Mid-level",
-    "salary": "$115000-$135000",
-    "contactEmail": "careers@microsoft.com",
-    "company_website": "https://www.microsoft.com/careers",
-    "adaRequirements": [
-      "Strong knowledge of WCAG 2.1 Level AA",
-      "ADA Title III compliance experience",
-      "Accessibility testing tools proficiency",
-      "Code review for accessibility standards"
-    ],
-    "industry": "Technology",
-    "posted_date": "2026-02-28",
-    "source": "Generated",
-    "apply_url": "https://www.microsoft.com/careers"
-  },
-  {
-    "id": "synthetic-1772276371884-8",
-    "title": "WCAG Compliance Analyst",
+    "id": "synthetic-1772279296822-3",
+    "title": "Digital Accessibility Manager",
     "company": "IBM",
-    "location": "San Francisco, CA",
-    "description": "Join IBM as a WCAG Compliance Analyst. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "location": "Remote",
+    "description": "Join IBM as a Digital Accessibility Manager. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
     "type": "Full-time",
     "experience": "Mid-level",
-    "salary": "$120000-$140000",
+    "salary": "$95000-$115000",
     "contactEmail": "careers@ibm.com",
     "company_website": "https://www.ibm.com/careers",
     "adaRequirements": [
@@ -843,31 +923,281 @@
       "Accessibility testing tools proficiency",
       "Code review for accessibility standards"
     ],
+    "skills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
+    ],
     "industry": "Technology",
     "posted_date": "2026-02-28",
     "source": "Generated",
-    "apply_url": "https://www.ibm.com/careers"
+    "apply_url": "https://www.ibm.com/careers",
+    "jobTitle": "Digital Accessibility Manager",
+    "level": "Mid-level",
+    "employmentType": "Full-time",
+    "postedDate": "2026-02-28",
+    "preferredSkills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
+    ],
+    "companyWebsite": "https://www.ibm.com/careers",
+    "applicationUrl": "https://www.ibm.com/careers",
+    "status": "active",
+    "contactPhone": ""
   },
   {
-    "id": "synthetic-1772276371884-9",
-    "title": "ADA Compliance Specialist",
-    "company": "Adobe",
-    "location": "Seattle, WA",
-    "description": "Join Adobe as a ADA Compliance Specialist. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "id": "synthetic-1772279296823-4",
+    "title": "Digital Accessibility Manager",
+    "company": "IBM",
+    "location": "San Francisco, CA",
+    "description": "Join IBM as a Digital Accessibility Manager. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
     "type": "Full-time",
     "experience": "Mid-level",
-    "salary": "$125000-$145000",
-    "contactEmail": "careers@adobe.com",
-    "company_website": "https://www.adobe.com/careers",
+    "salary": "$100000-$120000",
+    "contactEmail": "careers@ibm.com",
+    "company_website": "https://www.ibm.com/careers",
     "adaRequirements": [
       "Strong knowledge of WCAG 2.1 Level AA",
       "ADA Title III compliance experience",
       "Accessibility testing tools proficiency",
       "Code review for accessibility standards"
     ],
+    "skills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
+    ],
     "industry": "Technology",
     "posted_date": "2026-02-28",
     "source": "Generated",
-    "apply_url": "https://www.adobe.com/careers"
+    "apply_url": "https://www.ibm.com/careers",
+    "jobTitle": "Digital Accessibility Manager",
+    "level": "Mid-level",
+    "employmentType": "Full-time",
+    "postedDate": "2026-02-28",
+    "preferredSkills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
+    ],
+    "companyWebsite": "https://www.ibm.com/careers",
+    "applicationUrl": "https://www.ibm.com/careers",
+    "status": "active",
+    "contactPhone": ""
+  },
+  {
+    "id": "synthetic-1772279296823-5",
+    "title": "Digital Accessibility Manager",
+    "company": "Microsoft",
+    "location": "Remote - India",
+    "description": "Join Microsoft as a Digital Accessibility Manager. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "type": "Full-time",
+    "experience": "Mid-level",
+    "salary": "₹800000-₹1200000",
+    "contactEmail": "careers@microsoft.com",
+    "company_website": "https://www.microsoft.com/careers",
+    "adaRequirements": [
+      "Strong knowledge of WCAG 2.1 Level AA",
+      "ADA Title III compliance experience",
+      "Accessibility testing tools proficiency",
+      "Code review for accessibility standards"
+    ],
+    "skills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
+    ],
+    "industry": "Technology",
+    "posted_date": "2026-02-28",
+    "source": "Generated",
+    "apply_url": "https://www.microsoft.com/careers",
+    "jobTitle": "Digital Accessibility Manager",
+    "level": "Mid-level",
+    "employmentType": "Full-time",
+    "postedDate": "2026-02-28",
+    "preferredSkills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
+    ],
+    "companyWebsite": "https://www.microsoft.com/careers",
+    "applicationUrl": "https://www.microsoft.com/careers",
+    "status": "active",
+    "contactPhone": ""
+  },
+  {
+    "id": "synthetic-1772279296823-6",
+    "title": "ADA Compliance Specialist",
+    "company": "Apple",
+    "location": "Mumbai, India",
+    "description": "Join Apple as a ADA Compliance Specialist. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "type": "Full-time",
+    "experience": "Mid-level",
+    "salary": "₹900000-₹1300000",
+    "contactEmail": "careers@apple.com",
+    "company_website": "https://www.apple.com/careers",
+    "adaRequirements": [
+      "Strong knowledge of WCAG 2.1 Level AA",
+      "ADA Title III compliance experience",
+      "Accessibility testing tools proficiency",
+      "Code review for accessibility standards"
+    ],
+    "skills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
+    ],
+    "industry": "Technology",
+    "posted_date": "2026-02-28",
+    "source": "Generated",
+    "apply_url": "https://www.apple.com/careers",
+    "jobTitle": "ADA Compliance Specialist",
+    "level": "Mid-level",
+    "employmentType": "Full-time",
+    "postedDate": "2026-02-28",
+    "preferredSkills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
+    ],
+    "companyWebsite": "https://www.apple.com/careers",
+    "applicationUrl": "https://www.apple.com/careers",
+    "status": "active",
+    "contactPhone": ""
+  },
+  {
+    "id": "synthetic-1772279296823-7",
+    "title": "WCAG Compliance Analyst",
+    "company": "Salesforce",
+    "location": "Remote - India",
+    "description": "Join Salesforce as a WCAG Compliance Analyst. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "type": "Full-time",
+    "experience": "Mid-level",
+    "salary": "₹1000000-₹1400000",
+    "contactEmail": "careers@salesforce.com",
+    "company_website": "https://www.salesforce.com/careers",
+    "adaRequirements": [
+      "Strong knowledge of WCAG 2.1 Level AA",
+      "ADA Title III compliance experience",
+      "Accessibility testing tools proficiency",
+      "Code review for accessibility standards"
+    ],
+    "skills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
+    ],
+    "industry": "Technology",
+    "posted_date": "2026-02-28",
+    "source": "Generated",
+    "apply_url": "https://www.salesforce.com/careers",
+    "jobTitle": "WCAG Compliance Analyst",
+    "level": "Mid-level",
+    "employmentType": "Full-time",
+    "postedDate": "2026-02-28",
+    "preferredSkills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
+    ],
+    "companyWebsite": "https://www.salesforce.com/careers",
+    "applicationUrl": "https://www.salesforce.com/careers",
+    "status": "active",
+    "contactPhone": ""
+  },
+  {
+    "id": "synthetic-1772279296823-8",
+    "title": "Digital Accessibility Manager",
+    "company": "Salesforce",
+    "location": "Remote - India",
+    "description": "Join Salesforce as a Digital Accessibility Manager. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "type": "Full-time",
+    "experience": "Mid-level",
+    "salary": "₹1100000-₹1500000",
+    "contactEmail": "careers@salesforce.com",
+    "company_website": "https://www.salesforce.com/careers",
+    "adaRequirements": [
+      "Strong knowledge of WCAG 2.1 Level AA",
+      "ADA Title III compliance experience",
+      "Accessibility testing tools proficiency",
+      "Code review for accessibility standards"
+    ],
+    "skills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
+    ],
+    "industry": "Technology",
+    "posted_date": "2026-02-28",
+    "source": "Generated",
+    "apply_url": "https://www.salesforce.com/careers",
+    "jobTitle": "Digital Accessibility Manager",
+    "level": "Mid-level",
+    "employmentType": "Full-time",
+    "postedDate": "2026-02-28",
+    "preferredSkills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
+    ],
+    "companyWebsite": "https://www.salesforce.com/careers",
+    "applicationUrl": "https://www.salesforce.com/careers",
+    "status": "active",
+    "contactPhone": ""
+  },
+  {
+    "id": "synthetic-1772279296823-9",
+    "title": "Section 508 Consultant",
+    "company": "Apple",
+    "location": "Hyderabad, India",
+    "description": "Join Apple as a Section 508 Consultant. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "type": "Full-time",
+    "experience": "Mid-level",
+    "salary": "₹1200000-₹1600000",
+    "contactEmail": "careers@apple.com",
+    "company_website": "https://www.apple.com/careers",
+    "adaRequirements": [
+      "Strong knowledge of WCAG 2.1 Level AA",
+      "ADA Title III compliance experience",
+      "Accessibility testing tools proficiency",
+      "Code review for accessibility standards"
+    ],
+    "skills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
+    ],
+    "industry": "Technology",
+    "posted_date": "2026-02-28",
+    "source": "Generated",
+    "apply_url": "https://www.apple.com/careers",
+    "jobTitle": "Section 508 Consultant",
+    "level": "Mid-level",
+    "employmentType": "Full-time",
+    "postedDate": "2026-02-28",
+    "preferredSkills": [
+      "WCAG 2.1",
+      "ADA compliance",
+      "accessibility testing",
+      "screen reader testing"
+    ],
+    "companyWebsite": "https://www.apple.com/careers",
+    "applicationUrl": "https://www.apple.com/careers",
+    "status": "active",
+    "contactPhone": ""
   }
 ]
