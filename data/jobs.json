@@ -651,16 +651,16 @@
     "contactPhoneNote": "AI-generated — verify with company directly"
   },
   {
-    "id": "synthetic-1772275190818-0",
+    "id": "synthetic-1772275384105-0",
     "title": "Digital Accessibility Manager",
-    "company": "Microsoft",
-    "location": "Austin, TX",
-    "description": "Join Microsoft as a Digital Accessibility Manager. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "company": "Google",
+    "location": "Seattle, WA",
+    "description": "Join Google as a Digital Accessibility Manager. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
     "type": "Full-time",
     "experience": "Mid-level",
     "salary": "$80000-$100000",
-    "contactEmail": "careers@microsoft.com",
-    "company_website": "https://www.microsoft.com/careers",
+    "contactEmail": "careers@google.com",
+    "company_website": "https://www.google.com/careers",
     "adaRequirements": [
       "Strong knowledge of WCAG 2.1 Level AA",
       "ADA Title III compliance experience",
@@ -670,14 +670,14 @@
     "industry": "Technology",
     "posted_date": "2026-02-28",
     "source": "Generated",
-    "apply_url": "https://www.microsoft.com/careers"
+    "apply_url": "https://www.google.com/careers"
   },
   {
-    "id": "synthetic-1772275190818-1",
-    "title": "Digital Accessibility Manager",
+    "id": "synthetic-1772275384105-1",
+    "title": "Accessibility Engineer",
     "company": "Oracle",
-    "location": "Remote",
-    "description": "Join Oracle as a Digital Accessibility Manager. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "location": "Austin, TX",
+    "description": "Join Oracle as a Accessibility Engineer. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
     "type": "Full-time",
     "experience": "Mid-level",
     "salary": "$85000-$105000",
@@ -695,16 +695,16 @@
     "apply_url": "https://www.oracle.com/careers"
   },
   {
-    "id": "synthetic-1772275190818-2",
-    "title": "Digital Accessibility Manager",
-    "company": "IBM",
-    "location": "Remote",
-    "description": "Join IBM as a Digital Accessibility Manager. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "id": "synthetic-1772275384105-2",
+    "title": "Accessibility Engineer",
+    "company": "Microsoft",
+    "location": "New York, NY",
+    "description": "Join Microsoft as a Accessibility Engineer. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
     "type": "Full-time",
     "experience": "Mid-level",
     "salary": "$90000-$110000",
-    "contactEmail": "careers@ibm.com",
-    "company_website": "https://www.ibm.com/careers",
+    "contactEmail": "careers@microsoft.com",
+    "company_website": "https://www.microsoft.com/careers",
     "adaRequirements": [
       "Strong knowledge of WCAG 2.1 Level AA",
       "ADA Title III compliance experience",
@@ -714,19 +714,19 @@
     "industry": "Technology",
     "posted_date": "2026-02-28",
     "source": "Generated",
-    "apply_url": "https://www.ibm.com/careers"
+    "apply_url": "https://www.microsoft.com/careers"
   },
   {
-    "id": "synthetic-1772275190818-3",
-    "title": "Accessibility Engineer",
-    "company": "Apple",
-    "location": "Remote",
-    "description": "Join Apple as a Accessibility Engineer. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "id": "synthetic-1772275384105-3",
+    "title": "ADA Compliance Specialist",
+    "company": "Amazon",
+    "location": "Austin, TX",
+    "description": "Join Amazon as a ADA Compliance Specialist. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
     "type": "Full-time",
     "experience": "Mid-level",
     "salary": "$95000-$115000",
-    "contactEmail": "careers@apple.com",
-    "company_website": "https://www.apple.com/careers",
+    "contactEmail": "careers@amazon.com",
+    "company_website": "https://www.amazon.com/careers",
     "adaRequirements": [
       "Strong knowledge of WCAG 2.1 Level AA",
       "ADA Title III compliance experience",
@@ -736,39 +736,17 @@
     "industry": "Technology",
     "posted_date": "2026-02-28",
     "source": "Generated",
-    "apply_url": "https://www.apple.com/careers"
+    "apply_url": "https://www.amazon.com/careers"
   },
   {
-    "id": "synthetic-1772275190818-4",
-    "title": "Digital Accessibility Manager",
-    "company": "Adobe",
-    "location": "Seattle, WA",
-    "description": "Join Adobe as a Digital Accessibility Manager. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
-    "type": "Full-time",
-    "experience": "Mid-level",
-    "salary": "$100000-$120000",
-    "contactEmail": "careers@adobe.com",
-    "company_website": "https://www.adobe.com/careers",
-    "adaRequirements": [
-      "Strong knowledge of WCAG 2.1 Level AA",
-      "ADA Title III compliance experience",
-      "Accessibility testing tools proficiency",
-      "Code review for accessibility standards"
-    ],
-    "industry": "Technology",
-    "posted_date": "2026-02-28",
-    "source": "Generated",
-    "apply_url": "https://www.adobe.com/careers"
-  },
-  {
-    "id": "synthetic-1772275190818-5",
+    "id": "synthetic-1772275384105-4",
     "title": "Section 508 Consultant",
     "company": "Salesforce",
     "location": "Seattle, WA",
     "description": "Join Salesforce as a Section 508 Consultant. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
     "type": "Full-time",
     "experience": "Mid-level",
-    "salary": "$105000-$125000",
+    "salary": "$100000-$120000",
     "contactEmail": "careers@salesforce.com",
     "company_website": "https://www.salesforce.com/careers",
     "adaRequirements": [
@@ -783,14 +761,58 @@
     "apply_url": "https://www.salesforce.com/careers"
   },
   {
-    "id": "synthetic-1772275190818-6",
+    "id": "synthetic-1772275384105-5",
     "title": "Digital Accessibility Manager",
-    "company": "IBM",
-    "location": "Remote",
-    "description": "Join IBM as a Digital Accessibility Manager. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "company": "Amazon",
+    "location": "New York, NY",
+    "description": "Join Amazon as a Digital Accessibility Manager. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "type": "Full-time",
+    "experience": "Mid-level",
+    "salary": "$105000-$125000",
+    "contactEmail": "careers@amazon.com",
+    "company_website": "https://www.amazon.com/careers",
+    "adaRequirements": [
+      "Strong knowledge of WCAG 2.1 Level AA",
+      "ADA Title III compliance experience",
+      "Accessibility testing tools proficiency",
+      "Code review for accessibility standards"
+    ],
+    "industry": "Technology",
+    "posted_date": "2026-02-28",
+    "source": "Generated",
+    "apply_url": "https://www.amazon.com/careers"
+  },
+  {
+    "id": "synthetic-1772275384105-6",
+    "title": "WCAG Compliance Analyst",
+    "company": "Amazon",
+    "location": "Austin, TX",
+    "description": "Join Amazon as a WCAG Compliance Analyst. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
     "type": "Full-time",
     "experience": "Mid-level",
     "salary": "$110000-$130000",
+    "contactEmail": "careers@amazon.com",
+    "company_website": "https://www.amazon.com/careers",
+    "adaRequirements": [
+      "Strong knowledge of WCAG 2.1 Level AA",
+      "ADA Title III compliance experience",
+      "Accessibility testing tools proficiency",
+      "Code review for accessibility standards"
+    ],
+    "industry": "Technology",
+    "posted_date": "2026-02-28",
+    "source": "Generated",
+    "apply_url": "https://www.amazon.com/careers"
+  },
+  {
+    "id": "synthetic-1772275384105-7",
+    "title": "Accessibility Engineer",
+    "company": "IBM",
+    "location": "Remote",
+    "description": "Join IBM as a Accessibility Engineer. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "type": "Full-time",
+    "experience": "Mid-level",
+    "salary": "$115000-$135000",
     "contactEmail": "careers@ibm.com",
     "company_website": "https://www.ibm.com/careers",
     "adaRequirements": [
@@ -805,38 +827,16 @@
     "apply_url": "https://www.ibm.com/careers"
   },
   {
-    "id": "synthetic-1772275190818-7",
-    "title": "WCAG Compliance Analyst",
-    "company": "Adobe",
-    "location": "Seattle, WA",
-    "description": "Join Adobe as a WCAG Compliance Analyst. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
-    "type": "Full-time",
-    "experience": "Mid-level",
-    "salary": "$115000-$135000",
-    "contactEmail": "careers@adobe.com",
-    "company_website": "https://www.adobe.com/careers",
-    "adaRequirements": [
-      "Strong knowledge of WCAG 2.1 Level AA",
-      "ADA Title III compliance experience",
-      "Accessibility testing tools proficiency",
-      "Code review for accessibility standards"
-    ],
-    "industry": "Technology",
-    "posted_date": "2026-02-28",
-    "source": "Generated",
-    "apply_url": "https://www.adobe.com/careers"
-  },
-  {
-    "id": "synthetic-1772275190818-8",
-    "title": "Digital Accessibility Manager",
-    "company": "Apple",
-    "location": "New York, NY",
-    "description": "Join Apple as a Digital Accessibility Manager. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "id": "synthetic-1772275384105-8",
+    "title": "Section 508 Consultant",
+    "company": "IBM",
+    "location": "Remote",
+    "description": "Join IBM as a Section 508 Consultant. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
     "type": "Full-time",
     "experience": "Mid-level",
     "salary": "$120000-$140000",
-    "contactEmail": "careers@apple.com",
-    "company_website": "https://www.apple.com/careers",
+    "contactEmail": "careers@ibm.com",
+    "company_website": "https://www.ibm.com/careers",
     "adaRequirements": [
       "Strong knowledge of WCAG 2.1 Level AA",
       "ADA Title III compliance experience",
@@ -846,19 +846,19 @@
     "industry": "Technology",
     "posted_date": "2026-02-28",
     "source": "Generated",
-    "apply_url": "https://www.apple.com/careers"
+    "apply_url": "https://www.ibm.com/careers"
   },
   {
-    "id": "synthetic-1772275190818-9",
-    "title": "WCAG Compliance Analyst",
-    "company": "Salesforce",
-    "location": "San Francisco, CA",
-    "description": "Join Salesforce as a WCAG Compliance Analyst. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
+    "id": "synthetic-1772275384105-9",
+    "title": "ADA Compliance Specialist",
+    "company": "Amazon",
+    "location": "Seattle, WA",
+    "description": "Join Amazon as a ADA Compliance Specialist. Lead accessibility initiatives, ensure ADA compliance, and create inclusive digital experiences.",
     "type": "Full-time",
     "experience": "Mid-level",
     "salary": "$125000-$145000",
-    "contactEmail": "careers@salesforce.com",
-    "company_website": "https://www.salesforce.com/careers",
+    "contactEmail": "careers@amazon.com",
+    "company_website": "https://www.amazon.com/careers",
     "adaRequirements": [
       "Strong knowledge of WCAG 2.1 Level AA",
       "ADA Title III compliance experience",
@@ -868,6 +868,6 @@
     "industry": "Technology",
     "posted_date": "2026-02-28",
     "source": "Generated",
-    "apply_url": "https://www.salesforce.com/careers"
+    "apply_url": "https://www.amazon.com/careers"
   }
 ]
