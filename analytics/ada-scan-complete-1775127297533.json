@@ -1,0 +1,17 @@
+{
+  "url": "https://www.bankofamerica.com/",
+  "timestamp": "2026-04-02T10:54:51.004Z",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0",
+  "screenResolution": "1280x800",
+  "analysisId": "analysis_1775127291004_oc20l8rzg",
+  "completed": true,
+  "complianceScore": 41,
+  "analysisResult": {
+    "score": 41,
+    "totalIssues": 16,
+    "errors": 9,
+    "warnings": 7,
+    "info": 1
+  },
+  "mode": "client-side"
+}
