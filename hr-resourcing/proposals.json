@@ -16,5 +16,24 @@
       "client_c1": "selected",
       "nibyor_fr": "pending"
     }
+  },
+  {
+    "id": "prop_1782057729199_1nans8",
+    "candidateId": "c001",
+    "candidateName": "Bhagyaraj Sharma Srusti",
+    "companyName": "tcs",
+    "position": "java",
+    "notes": "",
+    "comments": "",
+    "stages": {
+      "nibyor_r1": "pending",
+      "client_r1": "pending",
+      "client_r2": "pending",
+      "client_c1": "pending",
+      "nibyor_fr": "pending"
+    },
+    "status": "submitted",
+    "submittedDate": "2026-06-21",
+    "updatedDate": "2026-06-21T16:02:09.199Z"
   }
 ]
