@@ -19,6 +19,13 @@
     "notes": "",
     "status": "submitted",
     "submittedDate": "2026-06-21",
-    "updatedDate": "2026-06-21T15:25:41.402Z"
+    "updatedDate": "2026-06-21T15:55:48.342Z",
+    "stages": {
+      "nibyor_r1": "pending",
+      "client_r1": "selected",
+      "client_r2": "pending",
+      "client_c1": "pending",
+      "nibyor_fr": "pending"
+    }
   }
 ]
