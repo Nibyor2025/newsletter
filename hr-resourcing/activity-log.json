@@ -33,5 +33,16 @@
     "candidateId": "c002",
     "fileName": "Sophie_Li.pdf",
     "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
+  },
+  {
+    "id": "log_1782055815336_ukoy",
+    "timestamp": "2026-06-21T15:30:15.336Z",
+    "type": "cv_view",
+    "company": "acs",
+    "token": "7rcD8sz5EPNhpWz5",
+    "candidateName": "Sophie Li",
+    "candidateId": "c002",
+    "fileName": "Sophie_Li.pdf",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
   }
 ]
