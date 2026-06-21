@@ -6,5 +6,13 @@
     "company": "acs",
     "token": "7rcD8sz5EPNhpWz5",
     "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
+  },
+  {
+    "id": "log_1782055511801_s5gp",
+    "timestamp": "2026-06-21T15:25:11.801Z",
+    "type": "login",
+    "company": "acs",
+    "token": "7rcD8sz5EPNhpWz5",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
   }
 ]
