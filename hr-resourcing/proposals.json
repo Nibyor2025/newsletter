@@ -47,12 +47,12 @@
     "stages": {
       "nibyor_r1": "pending",
       "client_r1": "selected",
-      "client_r2": "pending",
+      "client_r2": "rejected",
       "client_c1": "pending",
       "nibyor_fr": "pending"
     },
     "status": "submitted",
     "submittedDate": "2026-06-21",
-    "updatedDate": "2026-06-21T16:05:05.957Z"
+    "updatedDate": "2026-06-21T16:05:08.373Z"
   }
 ]
