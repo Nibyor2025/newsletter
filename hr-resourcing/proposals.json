@@ -26,7 +26,7 @@
     "notes": "",
     "comments": "",
     "stages": {
-      "nibyor_r1": "pending",
+      "nibyor_r1": "selected",
       "client_r1": "selected",
       "client_r2": "selected",
       "client_c1": "rejected",
@@ -34,6 +34,6 @@
     },
     "status": "submitted",
     "submittedDate": "2026-06-21",
-    "updatedDate": "2026-06-21T16:02:46.706Z"
+    "updatedDate": "2026-06-21T16:03:50.883Z"
   }
 ]
