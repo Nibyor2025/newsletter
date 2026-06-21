@@ -35,5 +35,24 @@
     "status": "submitted",
     "submittedDate": "2026-06-21",
     "updatedDate": "2026-06-21T16:03:50.883Z"
+  },
+  {
+    "id": "prop_1782057883742_tkpjdc",
+    "candidateId": "c001",
+    "candidateName": "Bhagyaraj Sharma Srusti",
+    "companyName": "acs",
+    "position": "java",
+    "notes": "",
+    "comments": "",
+    "stages": {
+      "nibyor_r1": "pending",
+      "client_r1": "pending",
+      "client_r2": "pending",
+      "client_c1": "pending",
+      "nibyor_fr": "pending"
+    },
+    "status": "submitted",
+    "submittedDate": "2026-06-21",
+    "updatedDate": "2026-06-21T16:04:43.742Z"
   }
 ]
