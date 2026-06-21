@@ -27,13 +27,13 @@
     "comments": "",
     "stages": {
       "nibyor_r1": "pending",
-      "client_r1": "pending",
+      "client_r1": "selected",
       "client_r2": "pending",
       "client_c1": "pending",
       "nibyor_fr": "pending"
     },
     "status": "submitted",
     "submittedDate": "2026-06-21",
-    "updatedDate": "2026-06-21T16:02:09.199Z"
+    "updatedDate": "2026-06-21T16:02:44.007Z"
   }
 ]
