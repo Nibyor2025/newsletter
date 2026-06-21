@@ -9,5 +9,16 @@
     "status": "interviewing",
     "submittedDate": "2026-06-21",
     "updatedDate": "2026-06-21T15:24:17.654Z"
+  },
+  {
+    "id": "prop_1782055541402_2g7oqg",
+    "candidateId": "c002",
+    "candidateName": "Sophie Li",
+    "companyName": "acs",
+    "position": "java",
+    "notes": "",
+    "status": "submitted",
+    "submittedDate": "2026-06-21",
+    "updatedDate": "2026-06-21T15:25:41.402Z"
   }
 ]
