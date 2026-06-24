@@ -1,0 +1,138 @@
+
+<style>
+  .wrap{padding:1rem 0}
+  .controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:.75rem;align-items:center}
+  .controls input{flex:1;min-width:160px;padding:6px 10px;font-size:13px;border:1px solid var(--color-border-tertiary);border-radius:6px;background:var(--color-background-primary);color:var(--color-text-primary)}
+  .controls select{padding:6px 10px;font-size:13px;border:1px solid var(--color-border-tertiary);border-radius:6px;background:var(--color-background-primary);color:var(--color-text-primary)}
+  .info-bar{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:10px;font-size:11.5px;color:var(--color-text-secondary)}
+  .info-bar span{display:flex;align-items:center;gap:4px}
+  .dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+  table{width:100%;border-collapse:collapse;font-size:11.5px;table-layout:fixed}
+  th{background:var(--color-background-secondary);font-weight:600;font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--color-text-secondary);padding:7px 6px;border-bottom:2px solid var(--color-border-tertiary);text-align:left;white-space:nowrap}
+  td{padding:7px 6px;border-bottom:0.5px solid var(--color-border-tertiary);vertical-align:top;color:var(--color-text-primary)}
+  tr:hover td{background:var(--color-background-secondary)}
+  .rk{font-weight:700;font-size:14px;text-align:center}
+  .sp{display:inline-block;padding:2px 8px;border-radius:999px;font-weight:700;font-size:11px}
+  .sa{background:#EAF3DE;color:#3B6D11}.sb{background:#E6F1FB;color:#185FA5}
+  .sc{background:#FAEEDA;color:#854F0B}.sd{background:#FCEBEB;color:#A32D2D}
+  .nm{font-weight:600;font-size:12px;line-height:1.4}
+  .ct{font-size:10.5px;color:var(--color-text-secondary);line-height:1.6}
+  .jt{font-size:10.5px;color:var(--color-text-secondary);line-height:1.55}
+  .cnt{font-size:12px;color:var(--color-text-secondary);margin-bottom:6px}
+</style>
+<div class="wrap">
+  <div class="info-bar">
+    <span><span class="dot" style="background:#639922"></span>A = 85+ Excellent</span>
+    <span><span class="dot" style="background:#378ADD"></span>B = 70–84 Strong</span>
+    <span><span class="dot" style="background:#BA7517"></span>C = 55–69 Good</span>
+    <span><span class="dot" style="background:#E24B4A"></span>D = &lt;55 Below avg</span>
+  </div>
+  <div class="controls">
+    <input type="text" id="srch" placeholder="Search name, skill, location…" oninput="render()">
+    <select id="gf" onchange="render()">
+      <option value="">All grades</option>
+      <option value="A">A — Excellent (85+)</option>
+      <option value="B">B — Strong (70–84)</option>
+      <option value="C">C — Good (55–69)</option>
+      <option value="D">D — Below avg</option>
+    </select>
+    <select id="sf" onchange="render()">
+      <option value="rank">Sort: Rank</option>
+      <option value="exp">Sort: Experience</option>
+      <option value="score">Sort: Score</option>
+      <option value="name">Sort: Name</option>
+    </select>
+  </div>
+  <div class="cnt" id="cnt"></div>
+  <div style="overflow-x:auto">
+  <table>
+    <thead><tr>
+      <th style="width:30px">#</th>
+      <th style="width:120px">Name</th>
+      <th style="width:128px">Contact / Location</th>
+      <th style="width:42px;text-align:center">Exp</th>
+      <th style="width:54px;text-align:center">Score</th>
+      <th>Justification</th>
+    </tr></thead>
+    <tbody id="tb"></tbody>
+  </table>
+  </div>
+</div>
+<script>
+const D=[
+  {r:1,n:"Shahi Yella",p:"856-244-8094",e:"shahipoornima1@gmail.com",l:"BNY Mellon",x:8,s:96,g:"A",j:"BNY Mellon 2M+ txns/day custody & settlement; Java 21 Virtual Threads (Project Loom); FIX Protocol/SWIFT/FEDWIRE/CHIPS; Angular 17 Module Federation Micro Frontends; RAG+LangChain+LangGraph+Claude+MCP Agentic AI cut compliance research ~50%; GCP→Azure pipeline migration; OpenTelemetry MTTR -40%; most technically elite profile in this batch"},
+  {r:2,n:"Ramappa Banja",p:"+1 (925) 409-7614",e:"ramappa.banja@gmail.com",l:"Columbus, OH (GAP Inc.)",x:13,s:94,g:"A",j:"Senior SE II at GAP Inc./Albertsons/Ulta Beauty via Nisum; tech lead 6+ engineers; Confluent Kafka Avro/Schema Registry; Apigee API Gateway; Headless Commerce REST API; AKS migration cut deploy 2hr→15min; JWT auth library eliminated boilerplate across 15+ µservices; p95/p99 Splunk+New Relic dashboards; best named-client impact metrics"},
+  {r:3,n:"Abid Anjum",p:"224-630-5128",e:"abid.anjum.sa1979@gmail.com",l:"Chicago, IL",x:20,s:93,g:"A",j:"20+ yrs; Lead Architect; 7+ yrs architecture experience; RAG+LLM+multi-agent; AWS MSK+Kinesis+ECS/EKS+GKE; Spring Batch 1M+ records/day; 60-70% deploy time reduction; Terraform IaC; Playwright BDD; React Native mobile; most experienced candidate — unique multi-agent AI architecture depth"},
+  {r:4,n:"Krishna Raj",p:"N/A",e:"reach.krishnaraj@gmail.com",l:"Austin, TX",x:20,s:92,g:"A",j:"20+ yrs; CTO at TBD Health startup; AI-native SDLC — MCP servers, agentic pipelines, trading rule engines, agentic QA, incident auto-triage; HIPAA Saleor+Next.js+AWS migration; Shopify→custom EMR; AI automation cut manual work ~80%; resume.kraj.me; unique CTO+architect background; individual US Citizen"},
+  {r:5,n:"Venkat Vadlamudi",p:"(737) 326-8847",e:"venkatv6009@gmail.com",l:"N/A",x:10,s:91,g:"A",j:"10+ yrs Fortune 500 finance/logistics/e-commerce; GraphQL reduced over-fetching 45%; Flyway zero-downtime migrations; GCP Pub/Sub+BigQuery+Cloud Functions; Cursor+Claude+GitHub Copilot daily 35-40% throughput boost; HikariCP connection pool tuning; ReactJS+Angular 16 expert; Resilience4j circuit breakers; strong measured AI adoption"},
+  {r:6,n:"Vinay Nadella",p:"+1 9132783288",e:"vinaynadella323@gmail.com",l:"Chicago, IL (BCBSA)",x:10,s:90,g:"A",j:"10+ yrs; BCBSA 5M+ cardholders, $2B+ annual txns; AWS+GCP+Azure triple certified (AWS CP, Azure Data Fundamentals, OCP Java SE); JBPM+BPMN 2.0 workflow; Istio Service Mesh; Next.js; GCP Vertex AI; Dataflow; Drools; WCAG 2.0/ADA/Section 508; triple-cloud+triple-cert combo is rare"},
+  {r:7,n:"Dhruvkumar Patel",p:"+1 (704) 820-4160",e:"pdhruv.tekdev@gmail.com",l:"Morgan Stanley",x:9,s:89,g:"A",j:"9+ yrs; Morgan Stanley Azure engagement + healthcare/banking/capital markets; LangChain4j+Pinecone+FAISS+pgvector RAG; Azure OpenAI+Spring AI GenAI; Confluent Avro/Protobuf Schema Registry; Outbox+Saga patterns; Pact contract testing; Gatling perf; CompletableFuture+JFR profiling — deepest GenAI+Java integration profile"},
+  {r:8,n:"Pranay Gopalam",p:"314-266-4797",e:"Pranayg.pg5@gmail.com",l:"St Louis, MO (Cariad/VW)",x:8,s:88,g:"A",j:"8+ yrs; Cariad (VW Group) + automotive/banking/healthcare; AWS Bedrock Certified + Anthropic AI Fluency Certified; LangChain+LangGraph+Pinecone+ChromaDB+FAISS RAG/GenAI; SAFe4 framework; Spring Cloud Contract; Playwright+Cypress; AI Agents & Agentic Workflows; dual AI certifications unique in batch"},
+  {r:9,n:"Srihita Ramanan",p:"(346) 212-5959",e:"srihitaramanan@gmail.com",l:"San Jose, CA (eBay)",x:6,s:87,g:"A",j:"6+ yrs; eBay — $10M+ GMV via Unified User Privilege Program; LLM-powered unstructured input interpretation in production; ML tax category prediction model (pending US Patent); pgvector + Spring AI + RAG; launched Live Platform across 4 international markets; patent is standout differentiator — strongest AI in production profile"},
+  {r:10,n:"Bala Gopi Krishna Sabbineni",p:"+1 2488935680",e:"sabbibalagk@gmail.com",l:"META",x:9,s:87,g:"A",j:"9+ yrs; META — millions of requests/day; Spring for GraphQL schema+mutations; Spring Cloud Gateway rate limiting+Resilience4j circuit breakers; Keycloak+PostgreSQL centralized IAM; canary deployments+feature flags; Grafana LGTM+OpenTelemetry; Claude+Codex AI tools; leads 10+ engineer team — strongest enterprise scale + team leadership"},
+  {r:11,n:"Sai Prakash",p:"+1 3474226682",e:"saiprakashkuna0305@gmail.com",l:"N/A",x:12,s:86,g:"A",j:"12+ yrs; gRPC services; PySpark+Apache Spark data pipelines; GCP GKE+Pub/Sub+BigQuery+IAM specialist; Vertex AI+LLM+RAG+Agentic AI; Apigee API management; SAML+OpenID Connect; IBM ECM Suite; AEM; broad Java+AI+GCP specialisation with hands-on agentic AI"},
+  {r:12,n:"Rishitha Buddala",p:"(615) 669-8178",e:"rishithar254@gmail.com",l:"Best Buy",x:10,s:85,g:"A",j:"10+ yrs; Best Buy retail platform; AppDynamics+AWS X-Ray+Spinnaker CD; 85%+ test coverage in CI; Consul service discovery+ZooKeeper distributed coord; EhCache+Redis multilevel caching; Spring Boot Actuator+HPA autoscaling; JVM heap+GC tuning; Spinnaker; strong DevOps maturity"},
+  {r:13,n:"Shahi (Sahithi P)",p:"+1 973-858-4402",e:"sahithip115@gmail.com",l:"Citibank, NY",x:9,s:84,g:"A",j:"9+ yrs; Citibank (current) + banking/retail/healthcare; TIBCO EMS+WebSphere MQ; Quartz Scheduler+Spring Batch batch jobs; Apigee Edge policies; GitHub Copilot code reviews; multi-cloud AWS+Azure+GCP; solid enterprise integration specialist"},
+  {r:14,n:"Ragni Prabhala",p:"949-385-2961",e:"ragnip569@gmail.com",l:"N/A",x:7,s:83,g:"A",j:"7+ yrs; finance/banking/healthcare; AWS Kinesis+Cognito+Okta; Pact consumer-driven contract testing; DevSecOps Snyk+Checkmarx+Nexus Artifactory; OpenShift+ArgoCD; Angular 18/19 Signals+zone-less change detection; Spring Cloud Contract; deep DevSecOps posture"},
+  {r:15,n:"Vinay N (Venkat profile)",p:"N/A",e:"N/A",l:"N/A",x:10,s:82,g:"A",j:"Duplicate review skipped — see Venkat Vadlamudi"},
+  {r:15,n:"Saikiran RS",p:"773-739-3738",e:"saikiranrk1994@gmail.com",l:"Chicago (Bank of America)",x:10,s:82,g:"A",j:"10+ yrs; Bank of America GIS; agentic AI LLM workflows; vector DB+embedding for knowledge retrieval; MS CS 3.8 GPA Avila Univ; Kotlin; Spring Cloud service discovery; vault-based banking secure access platform; good AI-first banking depth"},
+  {r:16,n:"Akhil Ch",p:"+1-415-801-6949",e:"akhilchwork.official@gmail.com",l:"N/A",x:14,s:81,g:"A",j:"14+ yrs; Java/J2EE+Spring Boot across telecom/banking/healthcare/airline/manufacturing/consulting; Kafka+JMS+RabbitMQ async; OAuth2+LDAP+RBAC; SonarQube+Nexus code quality; verbose but genuine depth across 6 domains; resume heavy with repetitive bullets, harder to verify cloud-native specifics"},
+  {r:17,n:"Akshitha K Reddy Akkireddy",p:"+1 (469) 298-8717",e:"katyainireddy08@gmail.com",l:"N/A",x:8,s:80,g:"A",j:"8+ yrs; AWS Certified Solutions Architect; Camunda BPMN workflow; GitHub+GitHub Copilot+ChatGPT AI tooling; NgRx+Angular+React; Testcontainers; ELK Stack; Spring Cloud Feign+Config Server; strong cert + workflow automation combo"},
+  {r:18,n:"Mohan Rajendran",p:"+1 4482458788",e:"mohanrajendran911@gmail.com",l:"N/A",x:11,s:79,g:"A",j:"11+ yrs; AEM+Camunda BPMN+JBPM workflow; Python Flask/Django+Java hybrid; Salesforce+MS Dynamics 365 CRM integration; GCP CloudWatch; JVM Camunda thread pool tuning; AEM auto-scaling; unique AEM+CRM integration specialty across enterprise domains"},
+  {r:19,n:"Chaitanya Denduluri",p:"+1 (551) 239-3206",e:"Chaitanyadenduluri2206@gmail.com",l:"Wilmington, DE (WSFS Bank)",x:9,s:78,g:"A",j:"9+ yrs; WSFS Bank microservices modernization — legacy loan system migration +40% performance; Java 11+Spring Cloud+Docker+K8s; Kafka+RabbitMQ; Spring Security OAuth2/JWT; Eureka+Zuul; ELK+Prometheus+Grafana; JUnit+Selenium; clean named-client with quantified outcome"},
+  {r:20,n:"Hima K",p:"+1 (203) 824-1427",e:"krhimav@gmail.com",l:"N/A",x:10,s:77,g:"A",j:"10+ yrs; Java 7–21; AWS Fargate+S3 Glacier+Data Lake Gen2; Azure Blob+Data Factory; IBM MQ+ZooKeeper; Oracle 19c+Cassandra 4.x+MongoDB 5/6; JAX-RS Jersey+CXF+JAXB; Spring WebFlux; broad AWS+Azure dual-cloud and deep legacy enterprise stack"},
+  {r:21,n:"Shirisha Bodige",p:"3142035325",e:"shirishabodige5@gmail.com",l:"Plano, TX (USAA)",x:7,s:76,g:"A",j:"7+ yrs; USAA — Camunda claims workflow modernization + blockchain-based audit trail for deployment traceability (unique differentiator); Angular 14→16 migration; GenAI+LLM integration; digital wallet+fraud detection platforms; React Native; blockchain audit trail is a standout feature"},
+  {r:22,n:"Bhavana Pasula",p:"+1 (909) 529-1193",e:"chinnupasula123@gmail.com",l:"San Francisco, CA (Fannie Mae)",x:8,s:76,g:"A",j:"8+ yrs; AWS Certified Solutions Architect; Fannie Mae multifamily; Apollo Client+GraphQL; Azure Cosmos DB+Couchbase; OpenAI LLM workflow automation; Kafka Streams+Azure Service Bus; Prometheus+Grafana+Fluentd; strong cert+multi-cloud+GenAI combo (same profile seen in batch 2, rescored for this context)"},
+  {r:23,n:"Venkat V (Sai Prakash alt)",p:"N/A",e:"N/A",l:"N/A",x:10,s:75,g:"A",j:"Covered under Sai Prakash row above"},
+  {r:23,n:"Divya Veerapareddy",p:"+1 (937) 565-5031",e:"divya.veera12356@gmail.com",l:"N/A",x:10,s:75,g:"A",j:"10+ yrs; React+Node.js+Java hybrid; Redux Toolkit+Recoil+Zustand state; Webpack+Vite optimization; AWS EC2/S3/RDS+CloudFormation Terraform IaC; Helm+ECS/EKS blue-green; Playwright+Cypress; DataLoader N+1 resolution; Lighthouse Core Web Vitals; GraphQL Apollo Server; widest frontend performance toolkit"},
+  {r:24,n:"Karthikeya Tumma",p:"+1 (689) 248-1166",e:"karthikeyantumma4@gmail.com",l:"N/A",x:10,s:74,g:"B",j:"10+ yrs; Java 17 sealed classes+pattern matching; Angular 17; Zookeeper; IBM WebSphere+JBoss clustered; solid classic enterprise stack but no GenAI, limited cloud-native specifics, no named recent employer — skills-heavy resume"},
+  {r:25,n:"Sai Bhuvan M",p:"813-618-3745",e:"saibhuvan188@gmail.com",l:"N/A",x:9,s:73,g:"B",j:"9+ yrs; Java 6–21; Python ETL+automation; Angular up to 19; Node.js BFF; IBM MQ+Zookeeper; Azure Cosmos DB; Harness CD; Prometheus+Grafana; Vue.js; Scala; broad stack but resume lacks specific named employers or quantified project outcomes"},
+  {r:26,n:"Sai Priya Maddukuri",p:"+1 (314) 709-9291",e:"saipriyamaddukuri06@gmail.com",l:"N/A",x:10,s:73,g:"B",j:"10+ yrs; banking/healthcare/retail/government; Cassandra+DynamoDB+MongoDB NoSQL; Redis+Spring Cache; Resilience4j circuit breakers; blue-green+rolling deployments; no specific AI tooling or named current employer mentioned; solid mid-range generalist"},
+  {r:27,n:"Keerthana R",p:"+1 571-343-2433",e:"keerthana.rs1115@gmail.com",l:"N/A",x:7,s:72,g:"B",j:"7+ yrs; Kotlin+Go+Scala+Python multi-lang; IBM MQ+RabbitMQ+ActiveMQ messaging breadth; Hadoop+Hive+HBase+Zookeeper big data; AWS Lambda+CloudFormation; Bamboo CI; impressive language breadth but resume reads skills-list heavy with minimal employer/project specifics"},
+  {r:28,n:"Ayesha",p:"773-992-9425",e:"ayeshafirdos1614@gmail.com",l:"N/A",x:11,s:71,g:"B",j:"11+ yrs; Spring WebFlux+J2EE legacy depth; AWS Redshift+SQS+SNS; PCF+Oracle WebLogic+IBM WebSphere; Spock testing; Struts 2+EJB 3; JMS+SQS; heavy on older enterprise app server stack; limited AI tooling; no named current employer or recent cloud-native quantified outcome"},
+  {r:29,n:"Dinesh Kumar Cherupally",p:"+1 8722589351",e:"cherupallyd0599@gmail.com",l:"N/A",x:12,s:70,g:"B",j:"12+ yrs; Java 11–17; Playwright UI automation; DynamoDB+Aurora; Dynatrace+ELK; Protractor (deprecated); conversational casual resume style; no GenAI; no named current employer; AWS limited to EC2/S3/Lambda basics; resume lacks modern cloud-native depth signal"},
+  {r:30,n:"Lohith Bethina",p:"(732) 440-8237",e:"lohithkumar803@gmail.com",l:"Columbus, OH (Northern Trust)",x:8,s:69,g:"B",j:"8+ yrs; Northern Trust; Snowflake; Kafka Schema Registry; AKS+EKS+GKE multi-cloud; Azure Monitor+App Insights; AI-enabled recommendation systems; Dynatrace; mentors junior engineers; solid retail/eCommerce+financial profile — same candidate seen in June11 batch"},
+  {r:31,n:"PRANAYGEETH (dup of Pranay G)",p:"314-266-4797",e:"Pranayg.pg5@gmail.com",l:"N/A",x:8,s:88,g:"A",j:"Duplicate — see Rank 8 Pranay Gopalam"},
+  {r:31,n:"Leeharika Siddabattuni",p:"469-248-5721",e:"leeharika1@outlook.com",l:"N/A",x:7,s:66,g:"B",j:"7+ yrs; Angular Material+RxJS; Redux+MobX; Spring Boot+Hibernate; AWS RDS+S3+ELB; Jenkins; JBoss+WebLogic; limited on Kafka/gRPC/AI tooling; no named current employer; resume lighter on modern cloud-native specifics vs peers"},
+  {r:32,n:"Hima (FSJava-Developer.pdf)",p:"N/A",e:"N/A",l:"N/A",x:8,s:65,g:"B",j:"8 yrs; Java FSE generic profile; standard Spring Boot+AWS+Docker+Kafka stack; no contact info/name on extracted text, minimal differentiation vs peers; profile lacks named employers and quantified metrics"},
+  {r:33,n:"Anjumyna Challagundla Madhava",p:"+1 239 329 5292",e:"challagundla17anju@gmail.com",l:"N/A",x:10,s:63,g:"B",j:"10+ yrs; healthcare/networking/insurance/payroll/logistics; AWS Lambda+Serverless; Python+Shell scripting automation; GraphQL+Kafka+RabbitMQ; Terraform exposure noted (not hands-on per wording); no AI tooling; 'exposure' language signals limited depth on newer stack; no named current employer"},
+  {r:34,n:"Aditya Kumar",p:"+1 (479) 337-5656",e:"ynvaditya@gmail.com",l:"Texas (Bank of America)",x:7,s:62,g:"B",j:"7 yrs; Bank of America; ArgoCD+CDK+Pact contract testing+Angular 18/19 Signals; strong toolchain — BUT same resume seen in Java_1306 batch (ranked #7 at 82). Re-scored lower here as duplicate; no additional differentiation found"},
+  {r:35,n:"Venu Challa",p:"312-929-8572",e:"venuc8572@gmail.com",l:"N/A",x:10,s:48,g:"D",j:"10 yrs but heavily legacy-focused: J2EE JSP/Servlets/Struts/Hibernate/JDBC/JNDI/RMI/EJB; Spring Boot is only briefly mentioned; no K8s depth, no AI tooling, no named recent enterprise employer, no GenAI; JBoss/WebLogic/Tomcat app servers primary; best fit for legacy system maintenance roles only"}
+];
+
+function gc(g){return g==="A"?"sa":g==="B"?"sb":g==="C"?"sc":"sd"}
+
+function render(){
+  const q=document.getElementById("srch").value.toLowerCase();
+  const gf=document.getElementById("gf").value;
+  const sf=document.getElementById("sf").value;
+  // remove structural duplicates
+  const seen=new Set();
+  let rows=D.filter(d=>{
+    const key=d.n+d.e;
+    if(seen.has(key))return false;
+    if(d.j.startsWith("Duplicate"))return false;
+    seen.add(key);
+    const t=(d.n+d.l+d.j+d.e+d.p).toLowerCase();
+    if(q&&!t.includes(q))return false;
+    if(gf&&d.g!==gf)return false;
+    return true;
+  });
+  if(sf==="exp")rows.sort((a,b)=>b.x-a.x);
+  else if(sf==="score")rows.sort((a,b)=>b.s-a.s);
+  else if(sf==="name")rows.sort((a,b)=>a.n.localeCompare(b.n));
+  else rows.sort((a,b)=>a.r-b.r);
+
+  document.getElementById("cnt").textContent=rows.length+" of 33 unique candidates shown (35 files — 2 cross-batch duplicates noted)";
+  document.getElementById("tb").innerHTML=rows.map((d,i)=>`
+    <tr>
+      <td class="rk">${i+1}</td>
+      <td><div class="nm">${d.n}</div></td>
+      <td><div class="ct">${d.p!=="N/A"?d.p+"<br>":""}${d.e!=="N/A"?d.e+"<br>":""}📍 ${d.l}</div></td>
+      <td style="text-align:center"><b>${d.x}y</b></td>
+      <td style="text-align:center"><span class="sp ${gc(d.g)}">${d.s} ${d.g}</span></td>
+      <td><div class="jt">${d.j}</div></td>
+    </tr>`).join("");
+}
+render();
+</script>
